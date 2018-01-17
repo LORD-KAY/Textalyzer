@@ -2,4 +2,4 @@
 README
 setup.cfg
 setup.py
-dist/Textalyzer.py
+textalyzer/Textalyzer.py
