@@ -2,4 +2,5 @@
 README
 setup.cfg
 setup.py
+test/test.py
 textalyzer/Textalyzer.py
