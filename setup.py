@@ -1,4 +1,11 @@
+import os
 from distutils.core import setup
+
+base_dir = os.path.dirname(__file__)
+
+with open(os.path.join(base_dir,"README.rst")) as f:
+	long_description = f.read()
+
 setup(
 	name = 'textalyzer',
 	packages = ['textalyzer'],
