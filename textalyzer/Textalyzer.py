@@ -76,3 +76,4 @@ class RepeatCharacter(object):
             return self.replace(repl_word)
         else:
             return repl_word
+
