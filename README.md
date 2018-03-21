@@ -25,11 +25,10 @@ Textalyzer analyze repeating words, contracted words or contractions and formatt
     - Download textalyzer using pip<br>
     - pip install textalyzer<br>
     - Import textalyzer into your project by using ```from textalyzer import Textalyzer``` depending on the   function you want to use.<br>
-    - The use ``` replacer = Textalyzer.RegexpReplacer() and repeat = Textalyzer.RepeatCharacter() ``` 
+    - The use ``` replacer = Textalyzer.RegexpReplacer() and repeat = Textalyzer.RepeatCharacter() ``` <br>
     - Or Simple do ```import textalyzer```
-    - Then call the methodS- RegexpReplacer() and RepeatCharacter()
-    - ``` replacer = RegexpReplacer() or repeat = RepeatCharacter()
-      ```
+    - Use ``` data = textalyzer.Textalyzer ``` <br>
+    -   ``` replacer  = data.RegexpReplacer() ``` <br>
     
   ## Alternatively
     - [x] You can download the tarball file from `pypi.python.org/pypi/textalyzer`
