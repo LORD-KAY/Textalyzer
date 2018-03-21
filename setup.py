@@ -9,7 +9,7 @@ with open(os.path.join(base_dir,"README.md")) as f:
 setup(
 	name = 'textalyzer',
 	packages = ['textalyzer'],
-	version = '0.1.4',
+	version = '0.1.4-stable',
 	description = ' A text  analyzer for repeating and contraction characters',
 	long_description = long_description,
 	author = 'Lord Kay',
