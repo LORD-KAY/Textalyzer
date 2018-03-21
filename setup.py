@@ -11,7 +11,7 @@ setup(
 	packages = ['textalyzer'],
 	version = '0.1.2',
 	description = ' A text  analyzer for repeating and contraction characters',
-	long_description = '',
+	long_description = long_description,
 	author = 'Lord Kay',
 	author_email = 'offeilord@gmail.com',
 	license = 'MIT',
