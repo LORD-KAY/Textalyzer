@@ -14,16 +14,24 @@ setup(
 	version = '0.1.4',
 	description = ' A text  analyzer for repeating and contraction characters',
 	long_description = long_description,
-	long_description_content_type = 'text/markdown',
+	long_description_content_type='text/markdown',
 	author = 'Lord Kay',
 	author_email = 'offeilord@gmail.com',
 	license = 'MIT',
 	classifiers=[
+		  'Development Status :: 3 - Alpha',
           'Intended Audience :: Developers',
+
+          'Topic :: Natural Language Processing :: Text Analysis',
+          'License :: OSI Approved :: MIT License',
           'Programming Language :: Python :: 3',
           'Programming Language :: Python :: 2'
       ],
 	url = 'https://github.com/LORD-KAY/Textalyzer',
 	download_url = 'https://github.com/LORD-KAY/Textalyzer/releases/v0.1.5',
+	project_urls={
+		'Source':'https://github.com/LORD-KAY/Textalyzer'
+	},
 	keywords = ['python','replacers','words','repeat','characters'],
+	install_requires=['wordnet']
 	)
