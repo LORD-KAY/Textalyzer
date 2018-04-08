@@ -7,7 +7,6 @@ Created on Wed Jan 18 04:19:37 2017
 
 import re
 from nltk.corpus import wordnet
-
 replacement_patterns = [
 (r'isn\'t','is not'),
 (r'Isn\'t','Is not'),

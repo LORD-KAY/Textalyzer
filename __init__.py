@@ -17,7 +17,7 @@ __title__ = "textalyzer"
 __summary__ = "Textalyzer is a small python module or library to help ease analyzing of text or words in a particular sentence and manipulating it"
 __uri__ = "https://github.com/LORD-KAY/Textalyzer"
 
-__version__ = "0.1.4-stable"
+__version__ = "0.1.4"
 
 __author__ = "Acheampong Lord Offei"
 __email__ = "offeilord@gmail.com"

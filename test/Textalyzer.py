@@ -9,6 +9,8 @@ import re
 from nltk.corpus import wordnet
 
 replacement_patterns = [
+(r'isn\'t','is not'),
+(r'Isn\'t','Is not'),
 (r'won\'t','will not'),
 (r'Won\'t','Will not'),
 (r'can\'t','cannot'),
