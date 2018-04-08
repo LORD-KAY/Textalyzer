@@ -19,6 +19,9 @@ Textalyzer analyze repeating words, contracted words or contractions and formatt
   ## Repeating words
   - Repeating words like helloooooooooooo - textalyzer help format this word by removing the o's to its normal word "hello"<br/>
   - Contractions like I'm - Textalyzer help format this word by converting it to it's normal word "I am"
+# Dependencies
+- wordnet 
+- Install wordnet by installing nltk
 # PyPI
 - Textalyzer is available at python package index.
   ## Installation Guide
