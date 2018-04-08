@@ -2,7 +2,10 @@ from setuptools import setup, find_packages
 from codecs import open
 from os import path
 
-with open(os.path.join(base_dir,"README.md"),encoding='utf-8') as f:
+base_dir  = path.abspath(path.dirname(__file__))
+
+#Getting the long description from the md file
+with open(path.join(base_dir,'README.md'), encoding='utf-8') as f:
 	long_description = f.read()
 
 setup(
