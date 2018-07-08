@@ -54,8 +54,10 @@ replacement_patterns = [
 #class for replacing characters
 class RegexpReplacer(object):
     def __init__(self, patterns=replacement_patterns):
-        self.patterns = [(re.compile(regex), repl) for (regex, repl) in patterns]
-    def replace(self,text):
+        if not list(patterns):
+            self.patterns = list(patterns)
+        self.patterns = [(re.compile(regex,flags=re.I), repl) for (regex, repl) in patterns]
+    def text_replacers(self,text):
         s = text
         for (pattern, repl) in self.patterns:
             (s,count) = re.subn(pattern, repl, s)
