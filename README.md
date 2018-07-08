@@ -3,8 +3,8 @@ Textalyzer is a lightweight python module or library to help ease analyzing of t
 Textalyzer analyze repeating words, contracted words or contractions and formatting them properly.
 
 # Class Functions Involved in this module
-  [-] RegexpReplacer <br>
-  [-] RepeatCharacter
+  [-] ContractionReplacers <br>
+  [-] RepeatingReplacers
 
 # Usage
   -Place the file in a folder where you have either read or write and read permisson. Eg. /opinionmining/lib/Textalyzer.py<br/>
@@ -12,8 +12,8 @@ Textalyzer analyze repeating words, contracted words or contractions and formatt
    <hr/> 
     from opinionmining.lib.Textalyzer import "Function To Use" <br>
     sample = "I can't wait for the football match" <br>
-    object = RegexpReplacer() <br>
-    data = object.replace(sample)<br>
+    object = ContractionReplacers() <br>
+    data = object.text_replacers(sample)<br>
 
 # Sample
   ## Repeating words
@@ -28,11 +28,11 @@ Textalyzer analyze repeating words, contracted words or contractions and formatt
     - Download textalyzer using pip<br>
     - pip install textalyzer<br>
     - Import textalyzer into your project by using ```from textalyzer import Textalyzer``` depending on the   function you want to use.<br>
-    - The use ``` replacer = Textalyzer.RegexpReplacer() and repeat = Textalyzer.RepeatCharacter() ``` <br>
+    - The use ``` replacer = Textalyzer.ContractionReplacers() and repeat = Textalyzer.RepeatingReplacers() ``` <br>
     -    ## Or
     - Simple do ```import textalyzer``` <br>
     - Then Use ``` data = textalyzer.Textalyzer ``` <br>
-    -   ``` replacer  = data.RegexpReplacer() ``` <br>
+    -   ``` replacer  = data.ContractionReplacers() ``` <br>
     
   ## Alternatively
     - [x] You can download the tarball file from `pypi.python.org/pypi/textalyzer`

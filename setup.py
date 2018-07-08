@@ -14,7 +14,6 @@ setup(
 	version = '0.1.5',
 	description = ' A text  analyzer for repeating and contraction characters',
 	long_description = str(long_description),
-	long_description_content_type='text/markdown',
 	author = 'Lord Kay',
 	author_email = 'offeilord@gmail.com',
 	license = 'MIT',
