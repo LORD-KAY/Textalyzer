@@ -11,7 +11,7 @@ with open(path.join(base_dir,"README.md"), encoding='utf-8') as f:
 setup(
 	name = 'textalyzer',
 	packages = ['textalyzer'],
-	version = '0.1.5',
+	version = '0.1.6',
 	description = ' A text  analyzer for repeating and contraction characters',
 	long_description = str(long_description),
 	author = 'Lord Kay',
