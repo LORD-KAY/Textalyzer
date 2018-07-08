@@ -52,7 +52,7 @@ replacement_patterns = [
 ]
 
 #class for replacing characters
-class RegexpReplacer(object):
+class ContractionReplacers(object):
     def __init__(self, patterns=replacement_patterns):
         if not list(patterns):
             self.patterns = list(patterns)
@@ -64,12 +64,12 @@ class RegexpReplacer(object):
         return s
         
 #Class for removing the repeating characters
-class RepeatCharacter(object):
+class RepeatingReplacers(object):
     def __init__(self):
         self.repeat_regexp = re.compile(r'(\w*)(\w)\2(\w*)')
         self.repl = r'\1\2\3'
     
-    def replace(self, word):
+    def text_repeaters(self, word):
         if wordnet.synsets(word):
             return  word
         repl_word = self.repeat_regexp.sub(self.repl, word)
