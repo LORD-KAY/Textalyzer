@@ -1,1 +1,1 @@
-wordnet
+nltk>=3

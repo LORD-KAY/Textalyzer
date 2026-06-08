@@ -1,6 +1,6 @@
 # Textalyzer
 Textalyzer is a lightweight python module or library to help ease analyzing of text or words in a particular sentence and manipulating it.
-Textalyzer analyze repeating words, contracted words or contractions and formatting them properly.
+Textalyzer analyzes repeating words and contracted words or contractions.
 
 # Class Functions Involved in this module
   [-] ContractionReplacers <br>
@@ -20,15 +20,15 @@ Textalyzer analyze repeating words, contracted words or contractions and formatt
   - Repeating words like helloooooooooooo - textalyzer help format this word by removing the o's to its normal word "hello"<br/>
   - Contractions like I'm - Textalyzer help format this word by converting it to it's normal word "I am"
 # Dependencies
-- wordnet 
-- Install wordnet by installing nltk
+- nltk
+- Download the WordNet corpus before using `RepeatingReplacers`: `python -m nltk.downloader wordnet`
 # PyPI
 - Textalyzer is available at python package index.
   ## Installation Guide
     - Download textalyzer using pip<br>
     - pip install textalyzer<br>
-    - Import textalyzer into your project by using ```from textalyzer import Textalyzer``` depending on the   function you want to use.<br>
-    - The use ``` replacer = Textalyzer.ContractionReplacers() and repeat = Textalyzer.RepeatingReplacers() ``` <br>
+    - Import textalyzer into your project by using ```from textalyzer import Textalyzer``` depending on the function you want to use.<br>
+    - Then use ```replacer = Textalyzer.ContractionReplacers()``` and ```repeat = Textalyzer.RepeatingReplacers()``` <br>
     -    ## Or
     - Simple do ```import textalyzer``` <br>
     - Then Use ``` data = textalyzer.Textalyzer ``` <br>
